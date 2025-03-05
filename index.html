@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio Link Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .name {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .bio {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .link {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            text-decoration: none;
+            color: white;
+            background-color: #0073e6;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .link:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+        <div class="name">Ваше Имя</div>
+        <div class="bio">Краткая биография или описание</div>
+        <a href="https://example.com" class="link">Ссылка 1</a>
+        <a href="https://example.com" class="link">Ссылка 2</a>
+        <a href="https://example.com" class="link">Ссылка 3</a>
+    </div>
+</body>
+</html>
